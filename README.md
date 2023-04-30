@@ -1,6 +1,11 @@
-# TypeScritp  
+# TypeScript
 
- - All you need to know about TypeScipt 
-  # install by npm 
-  npm i -g typesctipt
- 
+TypeScript is one of the popular programming language developed by Microsoft.
+
+## Installation
+
+Use the package manager NPM to install the TypeScript.
+
+```Bash
+ npm install -g typescript
+```
