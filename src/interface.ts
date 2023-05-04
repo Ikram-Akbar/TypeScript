@@ -72,6 +72,19 @@ const multiply1: MultipleInterface = (x, y) => x * y;
 const callToAction = multiply(25, 2);
 const callToAction1 = multiply1(25, 2);
 
-console.log(callToAction);
-console.log(callToAction1);
+// console.log(callToAction);
+// console.log(callToAction1);
 
+
+
+//-------------
+//interface in Array
+
+const myArr: number[] = [25, 14, 17];
+
+interface IArray {
+    [index: number]: number
+}
+const element: IArray = [250, 25, 45];
+
+//alias 
